@@ -7,7 +7,7 @@ Welcome to my website! I decided to create a site about something that I am very
 DESIGN
 This is the design I decided to go with. I picked this because it was simple and professional. 
 
-<img src="img/design.jpg"
+<img src="img/design.jpg"/>
 
 
 WHAT WENT WRONG
