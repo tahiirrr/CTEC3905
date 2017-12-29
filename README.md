@@ -5,6 +5,7 @@ INTRODUCTION
 Welcome to my website! I decided to create a site about something that I am very passionate about; gaming. I wanted to create a website which would allow people to have a look at some of the games we play on a regular.
 
 DESIGN
+
 This is the design I decided to go with. I picked this because it was simple and professional. 
 
 <img src="img/design.jpg"/>
@@ -16,20 +17,9 @@ When coding the navigation bar I was having difficulty getting the a space inbet
 Another issue that occurred was that when I was inserting images into my website I hadn't created any sections and because of this all my images were getting placed weirdly, to fix this I created a new section and using the CSS I made it so that all the images were in boxes and the same size.
 
 
+TESTING
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+The testing for the website was done in various ways. I first ran the code through the validator online, it came up with a few errors however they didn't make any differene to the actual website, since the layout of the website is the same on every page. I also tried every single hyperlink on the site to make sure that the site was working correctly.
 
 
 
