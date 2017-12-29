@@ -4,8 +4,15 @@ INTRODUCTION
 
 Welcome to my website! I decided to create a site about something that I am very passionate about; gaming. I wanted to create a website which would allow people to have a look at some of the games we play on a regular.
 
+DESIGN
+This is the design I decided to go with. I picked this because it was simple and professional. 
+<img src="./img/design.jpg />
+
+
 WHAT WENT WRONG
 
+When coding the navigation bar I was having difficulty getting the a space inbetween the different buttons making the site look unprofessional, however the error was caused  by a simple indent issue which flew over my head.
+Another issue that occurred was that when I was inserting images into my website I hadn't created any sections and because of this all my images were getting placed weirdly, to fix this I created a new section and using the CSS I made it so that all the images were in boxes and the same size.
 
 
 
