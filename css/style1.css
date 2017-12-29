@@ -5,44 +5,28 @@ body{
   background-color:#f4f4f4;
 }
 
-/* Clock */
-
-#clock {
-  font-weight: 300;
-  font-size: 100px;
-}
-
-/* Table */
-
-table
-{
-	border: 1px solid black;
-	border-collapse: collapse;
-	opacity: 0.95;
-	width: 85%;
-}
-
-th
-{
-	background: #a70000;
-	color: white;
-}
-
-tr:nth-child(even)
-{
-	background: #e8e8e8;
-}
-
-tr:nth-child(odd)
-{
-	background: white;
-}
-
-.tblhdr
-{
-	background:#35424a;
-	color: white;
+.slider{
+	width: 747px;
+	height: 420px;
+	background: url(../img/soon1.png);
+	margin: 100px auto;
+	animation: slide 20s infinite;
 	
+}
+
+@keyframes slide{
+	25%{
+	background: url(../img/soon2.png)
+	}
+	50%{
+	background: url(../img/soon3.png)
+	}
+	75%{
+	background: url(../img/soon4.png)
+	}
+	100%{
+	background: url(../img/soon5.png)
+	}
 }
 
 /* GLOBAL */
@@ -135,22 +119,6 @@ showcase p{
 	font-size:20px;
 }
 
-/* Boxes */
-#boxes{
-	margin-top:20px;
-}
-
-#boxes .box{
-	float:left;
-	text-align: center;
-	width: 30%;
-	padding:10px;
-	
-}
-
-#boxes .box img{
-	width:150px;
-}
 
 /* Sidebar */
 

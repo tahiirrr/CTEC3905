@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="main.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<meta name="author" content="Tahir Badal">
@@ -18,7 +19,7 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="toprated.html">Top Rated</a></li>
-						<li><a href="reviews.html">Reviews</a></li>
+						<li><a href="recommendations.html">Recommendations</a></li>
 						<li><a href="comingsoon.html">Coming Soon</a></li>
 						<li class ="current"><a href="about.html">About</a></li>
 					</ul>
@@ -38,7 +39,7 @@
 					Gamers Portal was founded in 2017 by Tahir Badal with the sole purpose to help you find the right games for you. For decades gamers have had the struggles of purchasing games which just did not satisfy their needs, resulting in returns or exchanges. Satisfaction in games is a neccesity when it comes to purchasing a new one and who enjoys going to the store to purchase a game to then go back to the store to return it? Nobody.
 
 We have a team of professional gamers who spend hours a day reviewing games and making sure that all the reviews on this website are 100% genuine.
-				
+					</p>
 				</article>
 				
 				<aside id="sidebar">
@@ -51,8 +52,28 @@ We have a team of professional gamers who spend hours a day reviewing games and 
 					</div>
 				</aside>
 			</div>
+			
+			<script type="text/javascript">
+				tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+				tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+				function GetClock(){
+				var d=new Date();
+				var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+				var nhour=d.getHours(),nmin=d.getMinutes();
+				if(nmin<=9) nmin="0"+nmin
+
+				document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+"";
+}
+
+				window.onload=function(){
+				GetClock();
+				setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox" style="text-align: center;"></div>
+
 		</section>
-		
 		<footer>
 			<p>Tahir Web Design, Copyright &copy; 2017<p/>
 		<footer/>
